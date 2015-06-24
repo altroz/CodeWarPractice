@@ -10,7 +10,8 @@ public class Book {
 
 	public void borrowed() {
 		this.borrowed = true;
-		System.out.println("The book has been borrowed");
+		System.out.println("Borrowing "+ title + " ...");
+		System.out.println("You successfully borrowed " + title);
 	}
 
 	public void returned() {
@@ -23,6 +24,7 @@ public class Book {
 			return true;
 		else
 			return false;
+	
 	}
 
 	public String getTitle() {
