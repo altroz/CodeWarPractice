@@ -9,7 +9,7 @@ public class FooCorporation {
 			System.out.println("There is an error with either the Pay Base and/or Total Hours");}
 		
 		else{ if(TotalHours>40){
-			System.out.println("The total pay is "+ (40*BasePay)+((TotalHours-40)*(BasePay*1.5)));}
+			System.out.println("The total pay is "+ (40*BasePay)+((TotalHours-40)*(BasePay*1.5)) );}
 			
 		else {System.out.println("The total pay is "+ (BasePay * TotalHours));}}
 	}
